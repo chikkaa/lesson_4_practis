@@ -1,46 +1,72 @@
-
-
-void main (){
+void main() {
   int a = 10;
-  if (a == 10){
-    print ('верно');
-  }else{
+  if (a == 10) {
+    print('верно');
+  } else {
     print('неверно');
   }
 
   int a2 = -3;
-  if (a2 == 0){
-     print ('верно');
-  }else{
+  if (a2 == 0) {
+    print('верно');
+  } else {
     print('неверно');
   }
 
-int a3 = -3;
+  int a3 = -3;
 
-if(a3 > 0){
-   print ('верно');
-  }else{
+  if (a3 > 0) {
+    print('верно');
+  } else {
     print('неверно');
   }
 
-int a4 = 10;
+  int a4 = 10;
 
-if (a4 < 0){
-   print ('верно');
-  }else{
+  if (a4 < 0) {
+    print('верно');
+  } else {
     print('неверно');
   }
 
+  int a5 = 10;
 
+  if (a5 >= 0) {
+    print('верно');
+  } else {
+    print('неверно');
+  }
 
-String palindrom = ('toma toma toma');
- 
-if (palindrom.isNotEmpty) {
-  print('томат');
-}else{
-print('томагавк');
-}
+  int a6 = 10;
 
-palindrom =='toma toma toma'? print('томат'): print('томагавк');
+  if (a6 <= 0) {
+    print('верно');
+  } else {
+    print('неверно');
+  }
+
+  int a7 = 10;
+
+  if (a7 != 0) {
+    print('верно');
+  } else {
+    print('неверно');
+  }
+
+  var a8 = 'десять';
+
+  if (a8 == "test") {
+    print('верно');
+  } else {
+    print('неверно');
+  }
+
+  var a9 = 1;
+
+  if (a9 == "1" && a9.runtimeType == String) {
+    print('верно');
+  } else {
+    print('неверно');
+  }
 
 }
